@@ -1,11 +1,11 @@
 @import url(header.css);
 :root{
     --fonte-principal:"oswaldo";
-    --fonte-secundaria:""
-    -cor-de-fundo: #2903ff;
+    --fonte-secundaria:"YoungSerif";
+    --cor-de-fundo: #0b19e8;
     -cor-cabecalho: #ffffff;
 }
 body{
-    background-color: var(-cor-de-fundo);
+    background-color: var(--cor-de-fundo);
     margin: 0;
 }
