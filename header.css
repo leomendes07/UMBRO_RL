@@ -6,37 +6,37 @@
     display: flex;
     align-items: center;
 }
-.container-imagem, .container-titulo,
-.container-frase{
+.container__imagem, .container__titulo,
+.container__frase{
     padding: 1em;
 }
-.container-titulo, .container-frase{
+.container__titulo, .container__frase{
     display: none;
 }
 @media screen and (min-width: 820px){
-    .container-titulo, .container-titulo-negrito{
+    .container__titulo, .container__titulo-negrito{
         font-size: 30px;
 }
 }
-.container-titulo{
+.container__titulo{
     display: block;
     width: 30vw;
 }
 @media screen and (min-width: 1024px){
-    .container-frase{
+    .container__frase{
         display: block;
         font-size: 20px;
         padding-left: 5em;
 }
-.container_titulo{
+.container__titulo{
     font-family: var(--fonte-principal);
     font-size: 30px;
     font-weight: 400;
 }
-.container_titulo-negrito{
+.container__titulo-negrito{
     font-weight: 700;
 }
-    .container_frase{
+    .container__frase{
     font-family: var(--fonte-secundaria);
     font-weight: 300;
 }
