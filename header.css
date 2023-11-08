@@ -18,7 +18,7 @@
     .menu-hamburguer-imagem{
         width: 24px;
         height: 24px;
-        justifiy-content: space-between;
+        justify-content: space-between;
         align-items: center;
     }
 .container__imagem{
