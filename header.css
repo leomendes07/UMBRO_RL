@@ -13,6 +13,8 @@
     width: 24px;
     height: 24px;
     background-image: url("..Menu.png");
+    justify-content: space-between;
+    align-items: center;
     display: inline-block;
 }
     .menu-hamburguer-imagem{
